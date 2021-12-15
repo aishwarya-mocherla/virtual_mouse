@@ -40,8 +40,8 @@ We do this by using the `mp.solutions.drawing_utils` (for the landmarks) and `.H
 
 
 <p align="left">
-<img width=40% src="virtual_mouse_images/4afinal.png"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-<img width=40% src="virtual_mouse_images/4bfinal.png"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 
+<img width=40% src="virtual_mouse_images/4afinal.gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<img width=40% src="virtual_mouse_images/4bfinal.gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 
 </p>
 
 
