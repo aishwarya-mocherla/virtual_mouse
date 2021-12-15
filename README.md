@@ -24,11 +24,10 @@ It uses two main features at the backend :
 <p align="center">
 <img width=40% src="virtual_mouse_images/1.jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 </p>
-
-<p align="center">
-<img width=40% src="virtual_mouse_images/1.jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-<figcaption align = "center"><b>Fig.1 - 4K Mountains Wallpaper</b></figcaption>
+<p align = "center">
+Fig.1 - 4K Mountains Wallpaper
 </p>
+
 
 
 
