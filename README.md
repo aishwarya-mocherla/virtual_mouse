@@ -25,6 +25,10 @@ It uses two main features at the backend :
 <img width=40% src="virtual_mouse_images/1.jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 </p>
 
+<figure aligh = "center">
+<img width=40% src="virtual_mouse_images/1.jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<figcaption align = "center"><b>Cropped Hand</b></figcaption>
+</figure>
 - Hand Landmarks: detects the various Landmarks / key points of the hand
 <p align="center">
 <img width=40% src="virtual_mouse_images/2.png"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
