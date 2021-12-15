@@ -15,7 +15,7 @@ The aim of this project is to develop a system that will allow the user to contr
 # Hand Tracking module 
 The main objective of creating this module is to set a base algorithm to use for all the necessary hand and gesture-related projects.
 
-`MediaPipe` is a framework developed by google that constist of various models that allows us to work with fundamental AI problems, such as face detection, moving object tracking, object detection, and a lot of other issues that revolve around the various key points or landmarks of an object.
+**MediaPipe** is a framework developed by google that constist of various models that allows us to work with fundamental AI problems, such as face detection, moving object tracking, object detection, and a lot of other issues that revolve around the various key points or landmarks of an object.
 
 The model we are working with for this project is the hand tracking model. 
 
@@ -35,7 +35,7 @@ To check whether the system detects your hand, we print the landmark every time 
 **_video of printed landmark 3_**
 
 And if the above condition states true, we proceed to mark the various landmarks on the hands and connect them. 
-We do this by using the **"mp.solutions.drawing_utils"** (for the landmarks) and **".HAND_CONNECTIONS"** (for the connections) methods.
+We do this by using the `mp.solutions.drawing_utils` (for the landmarks) and `.HAND_CONNECTIONS` (for the connections) methods.
 
 **_photo of dots 4a_**
 **_photos of dots and lines 4b_**
@@ -55,11 +55,11 @@ Since we need to assign each hand gesture to perform a specific operation, we ne
 Now that we have our improvised hand tracking module, we start working on the virtual mouse. In addition to OpenCV and MediaPipe libraries, we also use the **AutoPy** library. It is a cross-platform GUI automation library that includes functions for controlling the keyboard and mouse.
 
 ### Pointer
-We use AutoPy to control and navigate the cursor if the pointer finger is up and the rest of the other fingers are down by using **autopy.mouse.move**
+We use AutoPy to control and navigate the cursor if the pointer finger is up and the rest of the other fingers are down by using `autopy.mouse.move`
 **_gesture photo of pointer_**
 
 ### Click function
-We use AutoPy to left-click if the pointer finger is up and the thumb is out by using **autopy.mouse.click**
+We use AutoPy to left-click if the pointer finger is up and the thumb is out by using `autopy.mouse.click`
 **_gesture video of click_**
 
 *Similarly, we can assign many such functionalities to the model*
