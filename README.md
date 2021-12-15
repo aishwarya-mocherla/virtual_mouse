@@ -21,19 +21,28 @@ The model we are working with for this project is the hand tracking model.
 
 It uses two main features at the backend :
 - Palm Detection: provides a cropped image of the hand
+<p align="center">
+<img width=40% src="virtual_mouse_images/1.jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 
-![6afb6284-c01f-4aa8-8f75-a2354abd0740](https://user-images.githubusercontent.com/80768666/146142160-517f0c2f-eeb3-4b7a-b5fe-36905cb73f7a.jpg)
+</p>
+
+
 
 
 - Hand Landmarks: detects the various Landmarks / key points of the hand
 
-**_picture of all the hand key points (famous wala photo) 2 _**
+<p align="center">
+<img width=40% src="virtual_mouse_images/2.png"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+
+</p>
 
 
 
 To check whether the system detects your hand, we print the landmark every time the system detects one
+<p align="center">
+<img width=40% src="virtual_mouse_images/3_final.gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 
-**_video of printed landmark 3_**
+</p>
 
 And if the above condition states true, we proceed to mark the various landmarks on the hands and connect them. 
 We do this by using the `mp.solutions.drawing_utils` (for the landmarks) and `.HAND_CONNECTIONS` (for the connections) methods.
@@ -55,27 +64,34 @@ With this, the first part of the project that is to create a hand tracking modul
 
 Since we need to assign each hand gesture to perform a specific operation, we need to determine if a particular finger is straight up or down. To do that, we create a function that compares the position of the **fingertip** landmarks to the **finger joints** landmarks. If The position of the tip is lower than the joint, it means that the finger is down, and if not, it's up. 
 
+<p align="center">
+<img width=40% src="virtual_mouse_images/5final.gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+
+</p>
 
 
 
 
-https://user-images.githubusercontent.com/80768666/146143016-cc78eec2-cdad-4d59-bdf2-ea2211edc1e9.mp4
 
 
 Now that we have our improvised hand tracking module, we start working on the virtual mouse. In addition to OpenCV and MediaPipe libraries, we also use the **AutoPy** library. It is a cross-platform GUI automation library that includes functions for controlling the keyboard and mouse.
 
 ### Pointer
 We use AutoPy to control and navigate the cursor if the pointer finger is up and the rest of the other fingers are down by using `autopy.mouse.move`
-![ca7fd8ae-6c71-4803-94ae-10883df4eeb6](https://user-images.githubusercontent.com/80768666/146143098-541ece3e-2bad-4608-81d4-8bbc96239fd3.jpg)
+<p align="center">
+<img width=40% src="virtual_mouse_images/6a.jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 
+</p>
 
 ### Click function
 We use AutoPy to left-click if the pointer finger is up and the thumb is out by using `autopy.mouse.click`
 
 
 
-https://user-images.githubusercontent.com/80768666/146143255-12d263ee-1a4c-436a-bc5a-d1cbbca6c979.mp4
+<p align="center">
+<img width=40% src="virtual_mouse_images/6b_final.gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 
+</p>
 
 *Similarly, we can assign many such functionalities to the model*
 
