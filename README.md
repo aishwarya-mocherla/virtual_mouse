@@ -26,7 +26,7 @@ It uses two main features at the backend :
 </p>
 
 <figure>
-<img src="virtual_mouse_images/1.jpeg" alt="Trulli" style="width:40%">
+<img src="virtual_mouse_images/1.jpeg" alt="Trulli" style="width:40% ; align = center">
 <figcaption align = "center"><b>Fig.1 - 4K Mountains Wallpaper</b></figcaption>
 </figure>
 
