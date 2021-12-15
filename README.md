@@ -75,7 +75,8 @@ We use AutoPy to left-click if the pointer finger is up and the thumb is out by 
 *Similarly, we can assign many such functionalities to the model*
 
 # Results
- **_final video_**
+
+https://user-images.githubusercontent.com/80768666/146219911-7fa82028-2214-46ac-ac19-1c38d70ab349.mp4
 
 <p align="right" style="font-style:oblique">This model runs at 30 FPS</p>
 
@@ -89,4 +90,3 @@ We use AutoPy to left-click if the pointer finger is up and the thumb is out by 
 
 
 
-link the main documentation of OpenCV, mediapipe and autopipe and caption all pictures
