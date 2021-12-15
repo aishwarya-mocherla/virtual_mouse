@@ -25,12 +25,10 @@ It uses two main features at the backend :
 <img width=40% src="virtual_mouse_images/1.jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 </p>
 
-<p align = "center">
-<figure align = "center" >
-<img align = "center ;"width=40% src="virtual_mouse_images/1.jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-<figcaption align = "center"><b>Cropped Hand</b></figcaption>
+<figure>
+<img src="virtual_mouse_images/1.jpeg" alt="Trulli" style="width:40%">
+<figcaption align = "center"><b>Fig.1 - 4K Mountains Wallpaper</b></figcaption>
 </figure>
-</p>
 
 
 
