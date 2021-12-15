@@ -25,7 +25,7 @@ It uses two main features at the backend :
 <img width=40% src="virtual_mouse_images/1.jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 </p>
 <p align = "center">
-Fig.1 - 4K Mountains Wallpaper
+<b> CROPPED HAND </b>
 </p>
 
 
