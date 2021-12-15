@@ -89,7 +89,8 @@ We use AutoPy to left-click if the pointer finger is up and the thumb is out by 
 
 
 <p align="center">
-<img width=40% src="virtual_mouse_images/6b_final.gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+
+  <img width=40% src="virtual_mouse_images/6b_final.gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 
 </p>
 
