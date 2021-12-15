@@ -76,7 +76,10 @@ We use AutoPy to left-click if the pointer finger is up and the thumb is out by 
 
 # Results
 
-https://user-images.githubusercontent.com/80768666/146219911-7fa82028-2214-46ac-ac19-1c38d70ab349.mp4
+
+https://user-images.githubusercontent.com/80768666/146220853-e730c8e9-1fbb-49eb-aca4-8cb03e67583b.mp4
+
+
 
 <p align="right" style="font-style:oblique">This model runs at 30 FPS</p>
 
