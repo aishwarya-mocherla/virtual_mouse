@@ -21,13 +21,11 @@ The model we are working with for this project is the hand tracking model.
 
 It uses two main features at the backend :
 - Palm Detection: provides a cropped image of the hand
-<p >
-<img width=40% src="virtual_mouse_images/1.jpeg" <p align = "center">
-Fig.1 - 4K Mountains Wallpaper
-</p>> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<p align="center">
+<img width=40% src="virtual_mouse_images/2.png"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 </p>
-<p align = "center">
-<b> CROPPED HAND </b>
+<p align="center">
+CROPPED HAND
 </p>
 
 
