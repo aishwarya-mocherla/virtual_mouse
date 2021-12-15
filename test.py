@@ -1,7 +1,7 @@
 import cv2
 import mediapipe as mp
 import time
-import hand_tracking_module as htm
+import hand_tracking_module_min as htm
 pTime = 0
 cTime = 0
 cap = cv2.VideoCapture(1)
