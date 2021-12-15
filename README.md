@@ -15,7 +15,7 @@ The aim of this project is to develop a system that will allow the user to contr
 # Hand Tracking module 
 The main objective of creating this module is to set a base algorithm to use for all the necessary hand and gesture-related projects.
 
-**MediaPipe** is a framework developed by google that constist of various models that allows us to work with fundamental AI problems, such as face detection, moving object tracking, object detection, and a lot of other issues that revolve around the various key points or landmarks of an object.
+'MediaPipe' is a framework developed by google that constist of various models that allows us to work with fundamental AI problems, such as face detection, moving object tracking, object detection, and a lot of other issues that revolve around the various key points or landmarks of an object.
 
 The model we are working with for this project is the hand tracking model. 
 
