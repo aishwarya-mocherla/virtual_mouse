@@ -23,38 +23,25 @@ It uses two main features at the backend :
 - Palm Detection: provides a cropped image of the hand
 <p align="center">
 <img width=40% src="virtual_mouse_images/1.jpeg"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-
 </p>
-
-
-
 
 - Hand Landmarks: detects the various Landmarks / key points of the hand
-
 <p align="center">
 <img width=40% src="virtual_mouse_images/2.png"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-
 </p>
-
-
 
 To check whether the system detects your hand, we print the landmark every time the system detects one
 <p align="center">
 <img width=40% src="virtual_mouse_images/3_final.gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-
 </p>
 
 And if the above condition states true, we proceed to mark the various landmarks on the hands and connect them. 
 We do this by using the `mp.solutions.drawing_utils` (for the landmarks) and `.HAND_CONNECTIONS` (for the connections) methods.
 
-
 <p align="left">
 <img width=40% src="virtual_mouse_images/4afinal.gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 <img width=40% src="virtual_mouse_images/4bfinal.gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 
 </p>
-
-
-
 
 With this, the first part of the project that is to create a hand tracking module is completed. This module can now be used as a library for various other projects.
 
@@ -66,7 +53,6 @@ Since we need to assign each hand gesture to perform a specific operation, we ne
 
 <p align="center">
 <img width=40% src="virtual_mouse_images/5final.gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-
 </p>
 
 
@@ -85,13 +71,8 @@ We use AutoPy to control and navigate the cursor if the pointer finger is up and
 
 ### Click function
 We use AutoPy to left-click if the pointer finger is up and the thumb is out by using `autopy.mouse.click`
-
-
-
 <p align="center">
-
-  <img width=40% src="virtual_mouse_images/6b_final.gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
-
+<img width=40% src="virtual_mouse_images/6b_final.gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 </p>
 
 *Similarly, we can assign many such functionalities to the model*
