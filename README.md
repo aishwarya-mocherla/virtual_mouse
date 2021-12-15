@@ -39,13 +39,10 @@ And if the above condition states true, we proceed to mark the various landmarks
 We do this by using the `mp.solutions.drawing_utils` (for the landmarks) and `.HAND_CONNECTIONS` (for the connections) methods.
 
 
-
-https://user-images.githubusercontent.com/80768666/146142921-fea665dd-3a76-4103-92c1-207e04cb44eb.mp4
-
-
-
-
-https://user-images.githubusercontent.com/80768666/146142971-c45c28ba-7bbe-4404-8908-45a6b7a9703f.mp4
+<p align="left">
+<img width=40% src="Images/1.png"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
+<img width=40% src="Images/2.png"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; 
+</p>
 
 
 
