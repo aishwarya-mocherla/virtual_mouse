@@ -55,10 +55,7 @@ Since we need to assign each hand gesture to perform a specific operation, we ne
 <img width=40% src="virtual_mouse_images/5final.gif"> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;
 </p>
 
-
-
-
-
+*The list generated in the above picture is the position of the tips of all the five fingers. 1 indicates up and 0 indicates that the pertacular finger is down.'*
 
 Now that we have our improvised hand tracking module, we start working on the virtual mouse. In addition to OpenCV and MediaPipe libraries, we also use the **AutoPy** library. It is a cross-platform GUI automation library that includes functions for controlling the keyboard and mouse.
 
