@@ -1,4 +1,4 @@
-# **AI VIRTUAL MOUSE**
+# **VIRTUAL MOUSE**
 The aim of this project is to develop a system that will allow the user to control their computer cursor using their fingertips and different hand gestures.
 
  *Tools Used:*
